@@ -1,0 +1,61 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    justify-content:space-around;
+    align-items: center;
+    color:aliceblue;
+}
+.dropdown-content{
+    display:none;
+    position: absolute;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.5);
+    
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+body{
+    background-image: url(https://cdn.suwalls.com/wallpapers/nature/natural-stone-arch-in-the-crystal-clear-water-48815-1920x1080.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+header div a{
+    text-decoration: none;
+    color: #003C43;
+    display: flex; 
+    font-weight: bold;  
+}
+.container,.containera{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+}
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten{
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.5);
+    flex: 1;
+    text-align: center;
+    margin:0 40px;
+}
+.fone{
+    background-color: black;
+    color: #afb3b7;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.containera{
+    margin-bottom: 250px;
+}
+section div a{
+    text-decoration: none;
+    color: #003C43;
+}
+header a{
+    text-decoration: none;
+    color:aliceblue;
+}
